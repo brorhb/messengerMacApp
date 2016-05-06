@@ -17,10 +17,6 @@ class AppDelegate: NSObject, NSApplicationDelegate, WKNavigationDelegate, WKUIDe
     
     @IBOutlet var window : NSWindow!
     @IBOutlet var view : NSView!
-    @IBOutlet var loadingView : NSImageView?
-    @IBOutlet var spinner : NSProgressIndicator!
-    @IBOutlet var longLoading : NSTextField!
-    @IBOutlet var reactivationMenuItem : NSMenuItem!
     @IBOutlet var statusItemMenuItem : NSMenuItem!
     @IBOutlet var toolbarTrenner : NSToolbarItem!
     @IBOutlet var toolbarSpacing : NSToolbarItem!
