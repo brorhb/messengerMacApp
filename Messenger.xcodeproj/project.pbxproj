@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		934DA21B1CDC90BB00E4E941 /* notifikasjoner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 934DA21A1CDC90BB00E4E941 /* notifikasjoner.swift */; };
+		934DA21E1CDCA7B700E4E941 /* logo-2.png in Resources */ = {isa = PBXBuildFile; fileRef = 934DA21C1CDCA7B700E4E941 /* logo-2.png */; };
+		934DA21F1CDCA7B700E4E941 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 934DA21D1CDCA7B700E4E941 /* logo.png */; };
 		939C5DDE1CD9F9BA0012BAB0 /* messengerIcon16.png in Resources */ = {isa = PBXBuildFile; fileRef = 939C5DDC1CD9F9BA0012BAB0 /* messengerIcon16.png */; };
 		939C5DDF1CD9F9BA0012BAB0 /* messengerIcon32.png in Resources */ = {isa = PBXBuildFile; fileRef = 939C5DDD1CD9F9BA0012BAB0 /* messengerIcon32.png */; };
 		939C5DE11CD9FA0C0012BAB0 /* messengerIcon128.png in Resources */ = {isa = PBXBuildFile; fileRef = 939C5DE01CD9FA0C0012BAB0 /* messengerIcon128.png */; };
@@ -36,6 +39,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		934DA21A1CDC90BB00E4E941 /* notifikasjoner.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = notifikasjoner.swift; path = ../notifikasjoner.swift; sourceTree = "<group>"; };
+		934DA21C1CDCA7B700E4E941 /* logo-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "logo-2.png"; path = "../../Downloads/goofy-master/Goofy/Images.xcassets/Image.imageset/logo-2.png"; sourceTree = "<group>"; };
+		934DA21D1CDCA7B700E4E941 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = logo.png; path = "../../Downloads/goofy-master/Goofy/Images.xcassets/Image.imageset/logo.png"; sourceTree = "<group>"; };
 		939C5DDC1CD9F9BA0012BAB0 /* messengerIcon16.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = messengerIcon16.png; sourceTree = "<group>"; };
 		939C5DDD1CD9F9BA0012BAB0 /* messengerIcon32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = messengerIcon32.png; sourceTree = "<group>"; };
 		939C5DE01CD9FA0C0012BAB0 /* messengerIcon128.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = messengerIcon128.png; sourceTree = "<group>"; };
@@ -88,6 +94,8 @@
 				939C5DDC1CD9F9BA0012BAB0 /* messengerIcon16.png */,
 				939C5DDD1CD9F9BA0012BAB0 /* messengerIcon32.png */,
 				939C5DE01CD9FA0C0012BAB0 /* messengerIcon128.png */,
+				934DA21C1CDCA7B700E4E941 /* logo-2.png */,
+				934DA21D1CDCA7B700E4E941 /* logo.png */,
 			);
 			sourceTree = "<group>";
 		};
@@ -104,6 +112,7 @@
 		93B766131CD9F107000F817A /* Messenger */ = {
 			isa = PBXGroup;
 			children = (
+				934DA21A1CDC90BB00E4E941 /* notifikasjoner.swift */,
 				93B766141CD9F107000F817A /* AppDelegate.swift */,
 				93B766161CD9F107000F817A /* ViewController.swift */,
 				93B766181CD9F107000F817A /* Assets.xcassets */,
@@ -239,7 +248,9 @@
 				939C5DE11CD9FA0C0012BAB0 /* messengerIcon128.png in Resources */,
 				939C5DDF1CD9F9BA0012BAB0 /* messengerIcon32.png in Resources */,
 				939C5DDE1CD9F9BA0012BAB0 /* messengerIcon16.png in Resources */,
+				934DA21F1CDCA7B700E4E941 /* logo.png in Resources */,
 				93B7661C1CD9F107000F817A /* Main.storyboard in Resources */,
+				934DA21E1CDCA7B700E4E941 /* logo-2.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,6 +277,7 @@
 			files = (
 				93B766171CD9F107000F817A /* ViewController.swift in Sources */,
 				93B766151CD9F107000F817A /* AppDelegate.swift in Sources */,
+				934DA21B1CDC90BB00E4E941 /* notifikasjoner.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
